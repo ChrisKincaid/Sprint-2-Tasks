@@ -1,5 +1,5 @@
 FINISHED:: Task: To-Do List Project - Setting Up and Laying Foundations
-JavaScript: Intermediate Concepts - Classes, OOP, "this" Keyword (Videos)
+FINISHED: JavaScript: Intermediate Concepts - Classes, OOP, "this" Keyword (Videos)
 Task: To-Do List Project - Design and Styling
 JavaScript Mastery: Exploring OOP, the Nuances of 'this', and Hands-on Exercises
 JavaScript Mastery : Unraveling Design Patterns, Async/Await, Memoization, Promises, Callbacks, and Destructuring in Detail (videos)
