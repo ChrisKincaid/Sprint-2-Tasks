@@ -11,12 +11,12 @@
 
 </head>
 <body>
-    <h1>Page B</h1>
+    <h1>JavaScript Mastery: Exploring OOP, the Nuances of 'this', and Hands-on Exercises</h1>
     <nav class="navBar">
         <ul>
             <li><a href="index.html">Home: Task: To-Do List Project - Setting Up and Laying Foundations</a></li>
-            <li><a href="page00A.html">JavaScript Mastery: Exploring OOP, the Nuances of 'this', and Hands-on Exercises</a></li>
-            <li><a href="page00B.html">Task: To-Do List Project - Setting Up and Laying Foundations</a></li>
+            <li><a href="page00A.html">JavaScript: Intermediate Concepts - Classes, OOP, "this" Keyword (Videos)</a></li>
+            <li><a href="page00B.html">JavaScript Mastery: Exploring OOP, the Nuances of 'this', and Hands-on Exercises</a></li>
             <li><a href="page00C.html">Page C</a></li>
             <li><a href="page00D.html">Page D</a></li>
         </ul>
@@ -47,6 +47,74 @@
         <button id="testScriptD">Test Script D</button>
         <br>
     </nav>
+    <h1>JavaScript Mastery: Exploring OOP, the Nuances of 'this', and Hands-on Exercises</h1>
+    <p>
+        <b>Initial Setup:</b>
+        <br>
+        Create a new GitHub repository named "JS-HandsOn-OOP-This".
+        <br>
+        Clone the repository on your local machine.
+        <p class="styles00B">
+            I am creating on repository for everything in sprint 2.
+            <br>
+            I am creating a new branch for each task.
+            <br>
+            So when i am done with this task there will be a branch called "JS-HandsOn-OOP-This"
+        </p>
+        <b>Diving into Classes:</b>
+        <br>
+        Exercise 1.1: Design a class named "Car" with properties: make, model, and year.
+        <br>
+        Exercise 1.2: Add a method to the Car class called displayInfo which logs the car's make, model, and year.
+        <br>
+        <p class="styles00B">Done. Check script00B.js to see it.</p>
+        <p class="styles00B">Output:: Car 1 Make: Ford Model: Mustang Year: 2019</p>
+        <br>
+        <b>Understanding 'this' in Depth:</b>
+        <br>
+        Exercise 2.1: Craft a regular function within an object, then invoke it. Observe the behavior of "this".
+        <br>
+        <p class="styles00B">Output:: Car 2 Make: Ford Model: Mustang Year: 2019</p>
+        
+        Exercise 2.2: Create an arrow function within another object. Execute it and note the behavior of "this".
+        <br>
+        <p class="styles00B">Output:: Car 3 Make: undefined Model: undefined Year: undefined</p>
+
+        Exercise 2.3: Using the .bind() method, manually set the context of a function and observe the change in the behavior of "this".
+        <p class="styles00B">Output:: Car 4 Make: Ford Model: Mustang Year: 2019</p>
+        <b>Practical OOP Scenarios:</b>
+        <br>
+        Exercise 3.1: Implement inheritance by creating a subclass "ElectricCar" derived from the "Car" class, adding properties like batteryLife.
+        <br>
+        Exercise 3.2: For the "ElectricCar" class, override the displayInfo method to also include battery life information.
+        <p class="styles00B">Output:: Car 5 Make: Tesla Model: Model S Year: 2019 Battery Life: 100%</p>
+        <b>Challenges:</b>
+        <br>
+        Exercise 4.1: Design a class "Student". Create an instance method that uses "this" to access the student's properties. Observe how "this" behaves within the class context.
+        <p class="styles00B">Output:: Student Name: John Doe Grade: A</p>
+        Exercise 4.2: Construct a function that demonstrates the differences between using "this" in arrow functions and regular functions, especially when they are methods inside a class or object.
+        <p class="styles00B">Output:: Student Name: undefined undefined Grade: undefined</p>
+        <b>Documentation & Reflection:</b>
+        <br>
+        For each exercise, provide a brief comment detailing the purpose of the code and any challenges encountered.
+        <br>
+        Update the repository's README.md with:
+        <br>
+        A summary of the exercises.
+        <p class="styles00B">Done.</p>
+        <b>Reflection/Retrospective:</b>
+        <br>
+        Post-exercise, pen down reflections on the insights gained, hurdles faced, lessons learned, and solutions to any challenges.
+        <p class="styles00B">Done.</p>
+        <b>Commit Practices:</b>
+        <br>
+        Commit your progress after each exercise, e.g., "Finished Exercise 1.1".
+        <br>
+        Post-reflection, commit the updated README.md as "Enhanced README with Insights".
+        <br>
+        Push all commits to the GitHub repository.
+        <p class="styles00B">Done.</p>
+    </p>
 
     <script src="scripts/script00A.js"></script>
     <script src="scripts/script00B.js"></script>
