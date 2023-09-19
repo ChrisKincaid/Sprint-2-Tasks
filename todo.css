@@ -1,0 +1,71 @@
+/* gradient bg */
+body {
+  background: -webkit-linear-gradient(to right, #1d90bd, hsl(131, 80%, 45%));
+  background: linear-gradient(to right, hsl(200, 68%, 42%), hsl(122, 62%, 33%));
+}
+
+.containerMain {
+    /* positioning */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    /* create a max percentage of the page */
+    max-height: 90%;
+    /* colors */
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.cntMainTitle {
+    text-align: center;
+}
+
+.cntMainInput {
+    /* position */
+    text-align: center;
+    margin: 5px;
+}
+
+#inputBox {
+  width: 85%;
+}
+
+.cntMainList {
+    /* max-height: 9px; */
+}
+
+ul {
+    padding: 0;
+    flex-direction: column;
+    font-family: arial;
+}
+
+.listItem {
+    /* positioning */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* colors */
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    /* font */
+    font-size: 18px;
+    font-family: arial;
+}
+
+.listItemText {
+    /* positioning */
+    margin-left: 10px;
+    /* font */
+    font-size: 18px;
+    font-family: arial;
+
+}
