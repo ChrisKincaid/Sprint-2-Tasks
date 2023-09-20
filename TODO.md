@@ -7,3 +7,5 @@ Mastering Practical JavaScript: From DOM Interactions to Building Components
 Developing a Bookmarking App: From UI Interactions to Data Management
 Task: To-Do List Project - Adding and Displaying Tasks
 To-Do List Project - Task Interaction (Completion & Deletion)
+
+BackUp: Currently the GitHub Repo is the only source storing this code.
