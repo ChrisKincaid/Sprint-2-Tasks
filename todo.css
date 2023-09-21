@@ -1,6 +1,9 @@
 body {
   background: linear-gradient(to right, rgb(122, 78, 35), rgb(75, 75, 75));
 }
+.backHome {
+    color: white;
+}
 
 
 .containerMain {
